@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fix Images</title>
+</head>
+<body>
+    <h1>Fix Unsplash Images</h1>
+    <button onclick="checkImages()">Check Images</button>
+    <button onclick="fixImages()">Fix Images</button>
+    <div id="result"></div>
+
+    <script>
+        async function checkImages() {
+            try {
+                const response = await fetch('/api/fix-images');
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>Check Results:</h3>
+                    <p>Total Products: ${data.totalProducts}</p>
+                    <p>Products with Unsplash: ${data.productsWithUnsplash}</p>
+                    <pre>${JSON.stringify(data.examples, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `Error: ${error}`;
+            }
+        }
+
+        async function fixImages() {
+            try {
+                const response = await fetch('/api/fix-images', { method: 'POST' });
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>Fix Results:</h3>
+                    <p>${data.message}</p>
+                    <p>Updated: ${data.updatedCount} products</p>
+                    <p>Remaining Unsplash: ${data.remainingUnsplashCount}</p>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `Error: ${error}`;
+            }
+        }
+    </script>
+</body>
+</html>
