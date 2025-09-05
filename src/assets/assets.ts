@@ -75,35 +75,35 @@ export const categoryData = [
 ];
 
 // Try-on feature data
-export const tryonFeatureData = [
-  {
-    id: 0,
-    title: 'Virtual Try-On',
-    subtitle: 'See how clothes look on you',
-    description: 'Our AI-powered virtual try-on technology lets you visualize any outfit on your body type before making a purchase. No more guessing games!',
-    icon: '👕',
-    image: images.tryonDemo1,
-    benefits: ['Real-time visualization', 'Accurate body mapping', 'Multiple angles view']
-  },
-  {
-    id: 1,
-    title: 'Smart Sizing',
-    subtitle: 'Perfect fit guaranteed',
-    description: 'Get personalized size recommendations based on your measurements and previous purchases. Our algorithm learns your preferences over time.',
-    icon: '📏',
-    image: images.tryonDemo2,
-    benefits: ['AI size prediction', 'Body measurements', 'Fit history tracking']
-  },
-  {
-    id: 2,
-    title: 'Style Matching',
-    subtitle: 'Discover your perfect look',
-    description: 'Our style AI suggests complete outfits and accessories that match your personal style and the items you\'re trying on.',
-    icon: '🎨',
-    image: images.tryonDemo3,
-    benefits: ['Outfit suggestions', 'Color coordination', 'Style preferences']
-  }
-];
+// export const tryonFeatureData = [
+//   {
+//     id: 0,
+//     title: 'Virtual Try-On',
+//     subtitle: 'See how clothes look on you',
+//     description: 'Our AI-powered virtual try-on technology lets you visualize any outfit on your body type before making a purchase. No more guessing games!',
+//     icon: '👕',
+//     image: images.tryonDemo1,
+//     benefits: ['Real-time visualization', 'Accurate body mapping', 'Multiple angles view']
+//   },
+//   {
+//     id: 1,
+//     title: 'Smart Sizing',
+//     subtitle: 'Perfect fit guaranteed',
+//     description: 'Get personalized size recommendations based on your measurements and previous purchases. Our algorithm learns your preferences over time.',
+//     icon: '📏',
+//     image: images.tryonDemo2,
+//     benefits: ['AI size prediction', 'Body measurements', 'Fit history tracking']
+//   },
+//   {
+//     id: 2,
+//     title: 'Style Matching',
+//     subtitle: 'Discover your perfect look',
+//     description: 'Our style AI suggests complete outfits and accessories that match your personal style and the items you\'re trying on.',
+//     icon: '🎨',
+//     image: images.tryonDemo3,
+//     benefits: ['Outfit suggestions', 'Color coordination', 'Style preferences']
+//   }
+// ];
 
 // SVG icons
 export const icons = {

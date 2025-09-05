@@ -15,7 +15,6 @@ const Header = () => {
   
   const links = [
     { "fname": "Home", "href": "/" },
-    { "fname": "Try On", "href": "/try-on" },
     { "fname": "Men", "href": "/men" },
     { "fname": "Women", "href": "/women" },
     { "fname": "New In", "href": "/new-ins" },
@@ -41,7 +40,7 @@ const Header = () => {
 
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-gray-900">
-              TRYON-APP
+              SHOP BOT
             </Link>
           </div>
           <nav className="hidden md:flex space-x-8">

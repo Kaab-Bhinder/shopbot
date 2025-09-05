@@ -11,7 +11,7 @@ const Footer = () => {
           
           
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-white">TRYON-APP</h3>
+            <h3 className="text-2xl font-bold text-white">SHOP BOT</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               Revolutionizing fashion shopping with AI-powered virtual try-on technology. 
               Experience the future of online shopping.
@@ -112,7 +112,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 TRYON-APP. All rights reserved.
+              © 2024 SHOP BOT. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
