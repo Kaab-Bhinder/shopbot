@@ -16,7 +16,7 @@ if (!MONGODB_URI) {
 }
 
 // Ensure we're connecting to the TRYON database
-const dbName = process.env.MONGODB_DB || 'TRYON';
+const dbName = process.env.MONGODB_DB || 'SHOPBOT';
 
 interface CachedConnection {
   conn: typeof mongoose | null;

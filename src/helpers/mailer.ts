@@ -52,14 +52,14 @@ export const sendEmail = async ({ email, emailType, userID, orderHtml }: EmailPa
         htmlContent = `
           <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden;">
             <div style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%); padding: 30px 20px; text-align: center;">
-              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 600;">TRYON-APP</h1>
-              <p style="color: #d1d5db; margin: 10px 0 0 0; font-size: 16px;">Virtual Try-On Fashion Store</p>
+              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 600;">SHOP BOT</h1>
+              <p style="color: #d1d5db; margin: 10px 0 0 0; font-size: 16px;">Your Fashion Assistant Store</p>
             </div>
             
             <div style="padding: 40px 30px;">
-              <h2 style="color: #1f2937; text-align: center; margin: 0 0 30px 0; font-size: 24px; font-weight: 600;">Verify Your Email Address</h2>
+              <h2 style="color: #1f2937; text-align: center; margin: 0 0 30px 0; font-size: 24px; font-weight: 600;">Verify Your Email</h2>
               
-              <p style="color: #374151; font-size: 16px; line-height: 1.6; margin: 0 0 25px 0;">Thank you for creating your account with TRYON-APP. To complete your registration and start exploring our virtual try-on features, please verify your email address.</p>
+              <p style="color: #374151; font-size: 16px; line-height: 1.6; margin: 0 0 25px 0;">Thank you for creating your account with SHOP BOT. To complete your registration and start exploring our fashion assistant features, please verify your email address.</p>
               
               <div style="text-align: center; margin: 35px 0;">
                 <a href="${baseUrl}/verifyemail?token=${hashedToken}" 
@@ -79,11 +79,11 @@ export const sendEmail = async ({ email, emailType, userID, orderHtml }: EmailPa
                 </p>
               </div>
               
-              <p style="color: #6b7280; font-size: 14px; line-height: 1.5; margin: 0 0 20px 0;">If you didn't create an account with TRYON-APP, please ignore this email. Your email address will not be added to any mailing lists.</p>
+              <p style="color: #6b7280; font-size: 14px; line-height: 1.5; margin: 0 0 20px 0;">If you didn't create an account with SHOP BOT, please ignore this email. Your email address will not be added to any mailing lists.</p>
             </div>
             
             <div style="background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb;">
-              <p style="color: #9ca3af; font-size: 12px; margin: 0;">© 2024 TRYON-APP. All rights reserved.</p>
+              <p style="color: #9ca3af; font-size: 12px; margin: 0;">© 2024 SHOP BOT. All rights reserved.</p>
               <p style="color: #9ca3af; font-size: 12px; margin: 5px 0 0 0;">This is an automated message, please do not reply.</p>
             </div>
           </div>
@@ -94,14 +94,14 @@ export const sendEmail = async ({ email, emailType, userID, orderHtml }: EmailPa
         htmlContent = `
           <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden;">
             <div style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%); padding: 30px 20px; text-align: center;">
-              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 600;">TRYON-APP</h1>
-              <p style="color: #d1d5db; margin: 10px 0 0 0; font-size: 16px;">Virtual Try-On Fashion Store</p>
+              <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 600;">SHOP BOT</h1>
+              <p style="color: #d1d5db; margin: 10px 0 0 0; font-size: 16px;">Your Fashion Assistant Store</p>
             </div>
             
             <div style="padding: 40px 30px;">
               <h2 style="color: #1f2937; text-align: center; margin: 0 0 30px 0; font-size: 24px; font-weight: 600;">Reset Your Password</h2>
               
-              <p style="color: #374151; font-size: 16px; line-height: 1.6; margin: 0 0 25px 0;">We received a request to reset your password for your TRYON-APP account. If you made this request, please click the button below to create a new password.</p>
+              <p style="color: #374151; font-size: 16px; line-height: 1.6; margin: 0 0 25px 0;">We received a request to reset your password for your SHOP BOT account. If you made this request, please click the button below to create a new password.</p>
               
               <div style="text-align: center; margin: 35px 0;">
                 <a href="${baseUrl}/resetpassword?token=${hashedToken}" 
@@ -125,7 +125,7 @@ export const sendEmail = async ({ email, emailType, userID, orderHtml }: EmailPa
             </div>
             
             <div style="background: #f9fafb; padding: 25px 30px; text-align: center; border-top: 1px solid #e5e7eb;">
-              <p style="color: #9ca3af; font-size: 12px; margin: 0;">© 2024 TRYON-APP. All rights reserved.</p>
+              <p style="color: #9ca3af; font-size: 12px; margin: 0;">© 2024 SHOP BOT. All rights reserved.</p>
               <p style="color: #9ca3af; font-size: 12px; margin: 5px 0 0 0;">This is an automated message, please do not reply.</p>
             </div>
           </div>
@@ -152,7 +152,7 @@ export const sendEmail = async ({ email, emailType, userID, orderHtml }: EmailPa
 
     // Email content
     const mailOptions = {
-      from: '"Kaab Bhinder" <kaabbhinder28@gmail.com>',
+      from: '"SHOP BOT" <kaabbhinder28@gmail.com>',
       to: email,
       subject: subject,
       html: htmlContent,

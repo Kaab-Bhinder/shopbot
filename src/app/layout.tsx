@@ -10,8 +10,8 @@ import { WishlistProvider } from '../context/WishlistContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'TRYON-APP - Virtual Try-On Fashion Store',
-  description: 'Revolutionizing fashion shopping with AI-powered virtual try-on technology',
+  title: 'SHOP BOT - Smart Online Fashion Store',
+  description: 'An AI-powered fashion platform with smart recommendations, and seamless shopping experience.',
 };
 
 export default function RootLayout({

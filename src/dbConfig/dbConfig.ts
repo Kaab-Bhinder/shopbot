@@ -13,7 +13,7 @@ export async function connect() {
     }
 
     console.log("Attempting to connect to MongoDB...");
-    const dbName = process.env.MONGODB_DB || 'TRYON';
+    const dbName = process.env.MONGODB_DB || 'SHOPBOT';
     console.log(`Database: ${dbName}`);
     const options = {
       autoIndex: true,
