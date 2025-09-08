@@ -13,8 +13,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-white">SHOP BOT</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Revolutionizing fashion shopping with AI-powered virtual try-on technology. 
-              Experience the future of online shopping.
+              Revolutionizing fashion shopping with personalized, AI-powered recommendations. 
+              Experience the future of online shopping today.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
