@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import { AuthProvider } from '../context/AuthContext';
 import { CartProvider } from '../context/CartContext';
 import { WishlistProvider } from '../context/WishlistContext';
+import ChatWidget from '@/components/chatbot/ChatWidget';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
               <main>
                 {children}
               </main>
+              <ChatWidget />
               <Footer />
             </WishlistProvider>
           </CartProvider>
